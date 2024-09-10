@@ -2,7 +2,6 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from "../logo.svg";
 
 function Navigation() {
   return (
@@ -14,7 +13,7 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="/" >Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -27,7 +26,14 @@ function Navigation() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="/pages/contact">Contact</Nav.Link>
           </Nav>
+        </Navbar.Collapse>
+        <Navbar.Collapse className="justify-content-end">
+          <NavDropdown title="Language" id="language-drop-down">
+            <NavDropdown.Item id="language-chinese" href="#action/3.1">简体中文</NavDropdown.Item>
+            <NavDropdown.Item id="language-english" href="#action/3.2">English</NavDropdown.Item>
+          </NavDropdown>
         </Navbar.Collapse>
       </Container>
     </Navbar>
