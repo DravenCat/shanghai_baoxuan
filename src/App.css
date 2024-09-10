@@ -19,7 +19,7 @@
 }
 
 .App-body {
-  background-color: rgba(116, 153, 46, 0.69);
+  background-color: rgba(116, 153, 46, 0.6);
   min-height: 150vh;
   display: flex;
   flex-direction: column;
@@ -43,5 +43,5 @@
 }
 
 .App-footer {
-  background-color: rgba(116, 153, 46, 0.69);
+  background-color: rgba(116, 153, 46, 0.56);
 }
