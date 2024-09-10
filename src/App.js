@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Profile from "./pages/Profile";
 import Business from "./pages/Business";
 
+const isChinese = true;
 
 function App() {
   return (
