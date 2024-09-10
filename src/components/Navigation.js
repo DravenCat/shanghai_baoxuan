@@ -14,7 +14,8 @@ function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/" >Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link href="/profile">Company Profile</Nav.Link>
+            <Nav.Link href="/business">Product & Business</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -26,11 +27,11 @@ function Navigation() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/pages/contact">Contact</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
-          <NavDropdown title="Language" id="language-drop-down">
+          <NavDropdown title="语言/Language" id="language-drop-down">
             <NavDropdown.Item id="language-chinese" href="#action/3.1">简体中文</NavDropdown.Item>
             <NavDropdown.Item id="language-english" href="#action/3.2">English</NavDropdown.Item>
           </NavDropdown>

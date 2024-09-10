@@ -20,14 +20,14 @@
 
 .App-body {
   background-color: rgba(0, 0, 0, 0.2);
-  background-image: linear-gradient(black, white);
-  min-height: 100vh;
+  /*background-image: linear-gradient(black, white);*/
+  min-height: 92vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {

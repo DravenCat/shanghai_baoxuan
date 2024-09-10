@@ -1,14 +1,15 @@
-import logo from "../logo.svg";
+import background from "../img/background.png"
 
 
 function Home() {
   return(
     <div className="App">
       <div className={"App-body"}>
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit 去  <code>src/App.js</code> and save to reload.
+          上海宝宣自动化控制系统有限公司
         </p>
+        <img src={background} alt="background" />
+
         <a
           className="App-link"
           href="https://reactjs.org"
