@@ -7,21 +7,22 @@ function Contact() {
   return(
     <div className="App">
       <div className={"App-body"}>
-        <Col >
-          <img src={weChatQR} className={"App-picture"}/>
-          <img src={whatsAppQR} className={"App-picture"}/>
-        </Col>
         <p>
-          This is the contact page of Ren Xiao Yong
+          Our contacts
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Thanks!
-        </a>
+        <p>
+          任筱勇 Ren Xiaoyong
+        </p>
+        <p>
+          Phone number +86 13801951535
+        </p>
+        <Row>
+          <Col >
+            <img src={weChatQR} className={"App-picture"} alt="wechat"/>
+          </Col>
+          <Col><img src={whatsAppQR} className={"App-picture"} alt="whatsapp"/></Col>
+        </Row>
+
       </div>
 
 
