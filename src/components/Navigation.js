@@ -13,21 +13,10 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/" >Home</Nav.Link>
-            <Nav.Link href="/profile">Company Profile</Nav.Link>
-            <Nav.Link href="/business">Product & Business</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/" >首页</Nav.Link>
+            <Nav.Link href="/profile">公司简介</Nav.Link>
+            <Nav.Link href="/business">业务范围</Nav.Link>
+            <Nav.Link href="/contact">联系方式</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">

@@ -1,30 +1,37 @@
-.Home-body {
+.Home {
+    text-align: center;
     background-image: url("../img/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 92vh;
+}
 
+.Home-body {
+    min-height: 92vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: black;
+    padding-top: 30vh;
+    padding-bottom: 5vh;
 }
 
 .Home-image {
-    width: 81%;
+    width: 80%;
 }
 
 .Home-header {
-    /*background: rgba(100, 149, 237, 0.9);*/
     background: -webkit-linear-gradient(white, cornflowerblue);
     min-height: 25vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 .Home-nav {
@@ -34,7 +41,7 @@
 .Home-link {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.7);
-    padding: 6rem;
+    margin: 6rem;
 }
 
 .Home-link:hover {
@@ -57,4 +64,23 @@
 #Home-title {
     font-size: 24px;
     font-family: "楷体", serif;
+}
+
+#Home-language {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#Home-language:hover {
+    transition: color .5s;
+    color: rgba(0, 0, 0, 1);
+}
+
+.Home-content {
+    background: rgba(255, 255, 255, 0.9);
+    width: 80%;
+}
+
+#Home-page-img {
+    width: 80%;
+    height: 50vh;
 }
