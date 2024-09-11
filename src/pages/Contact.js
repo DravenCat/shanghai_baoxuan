@@ -1,3 +1,4 @@
+import "./Contact.css"
 import weChatQR from "../img/contacts/WeChat.jpg"
 import whatsAppQR from "../img/contacts/WhatsApp.jpg"
 import {Col, Row} from "react-bootstrap";
@@ -5,8 +6,6 @@ import {Col, Row} from "react-bootstrap";
 
 function Contact() {
   return(
-    <div className="App">
-
       <div className={"App-body"}>
         <p>
           Our contacts
@@ -25,9 +24,6 @@ function Contact() {
         </Row>
 
       </div>
-
-
-    </div>
   );
 }
 

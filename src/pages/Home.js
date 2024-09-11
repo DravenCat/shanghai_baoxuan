@@ -9,6 +9,7 @@ import {Button, Card, Col, NavLink, Row} from "react-bootstrap";
 
 function Home() {
   return(
+    <div className={"Home"}>
       <div className={"Home-body"}>
         <Row>
           {/* eslint-disable-next-line jsx-a11y/img-redundant-alt */}
@@ -55,6 +56,7 @@ function Home() {
           </Card>
         </Row>
       </div>
+    </div>
   );
 }
 

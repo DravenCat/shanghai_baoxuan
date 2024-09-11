@@ -1,10 +1,10 @@
-/*.Home {*/
-/*    text-align: center;*/
-/*    background-image: url("../img/background.png");*/
-/*    background-repeat: no-repeat;*/
-/*    background-size: cover;*/
-/*    background-attachment: fixed;*/
-/*}*/
+.Home {
+    text-align: center;
+    background-image: url("../img/home/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 .Home-body {
     min-height: 92vh;

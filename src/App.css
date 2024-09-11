@@ -1,9 +1,5 @@
 .App {
   text-align: center;
-  background-image: url("img/home/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
 }
 
 .App-logo {
@@ -23,7 +19,7 @@
 }
 
 .App-body {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
   /*background-image: linear-gradient(black, white);*/
   min-height: 92vh;
   display: flex;

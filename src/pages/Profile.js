@@ -1,11 +1,11 @@
-
+import "./Profile.css"
 
 
 
 
 function Profile() {
   return(
-    <div>
+    <div className={'App-body'}>
 
       This is the profile page
     </div>

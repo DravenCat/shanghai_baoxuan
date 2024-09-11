@@ -5,9 +5,9 @@
 
 function Business() {
   return(
-    <div>
+    <div className={"App-body"}>
 
-      This is the profile page
+      This is the business page
     </div>
   );
 }
