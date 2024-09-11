@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-image: url("./img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -44,5 +48,6 @@
 }
 
 .App-footer {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: #647fed;
+  color: white;
 }

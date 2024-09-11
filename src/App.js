@@ -7,12 +7,16 @@ import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import Profile from "./pages/Profile";
 import Business from "./pages/Business";
+import Navigation from "./components/Navigation";
 
 const isChinese = true;
 
 function App() {
   return (
-    <div>
+    <div className="App">
+      <header>
+        <Navigation />
+      </header>
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />

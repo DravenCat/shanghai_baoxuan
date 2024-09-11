@@ -1,15 +1,12 @@
 import weChatQR from "../img/contacts/WeChat.jpg"
 import whatsAppQR from "../img/contacts/WhatsApp.jpg"
 import {Col, Row} from "react-bootstrap";
-import Navigation from "../components/Navigation";
 
 
 function Contact() {
   return(
     <div className="App">
-      <header className="App-header">
-        <Navigation />
-      </header>
+
       <div className={"App-body"}>
         <p>
           Our contacts
