@@ -24,16 +24,16 @@ function Business() {
                   <Link to={"/business/electrical"} className={"General-nav-link"}>电气业务</Link>
                   <ul>
                     <li>
-                      <Link to={"/business/electrical#DCS&PLC"} className={"General-nav-link"}>DCS/PLC系统集成</Link>
+                      <a href={"/business/electrical#DCS_PLC"} className={"General-nav-link"}>DCS/PLC系统集成</a>
                     </li>
                     <li>
-                      <Link to={"/business/electrical#convertor"} className={"General-nav-link"}>变频器/柜与电机</Link>
+                      <a href={"/business/electrical#convertor"} className={"General-nav-link"}>变频器/柜与电机</a>
                     </li>
                     <li>
-                      <Link to={"/business/electrical#powersystem"} className={"General-nav-link"}>电力系统器/柜</Link>
+                      <a href={"/business/electrical#powersystem"} className={"General-nav-link"}>电力系统器/柜</a>
                     </li>
                     <li>
-                      <Link to={"/business/electrical#lightingsystem"} className={"General-nav-link"}>灯具与照明系统</Link>
+                      <a href={"/business/electrical#lightingsystem"} className={"General-nav-link"}>灯具与照明系统</a>
                     </li>
                   </ul>
                 </li>
@@ -42,19 +42,19 @@ function Business() {
                   <Link to={"/business/instrument"} className={"General-nav-link"}>热工、仪表自控业务</Link>
                   <ul>
                     <li>
-                      <Link to={"/business/instrument#transmitter"} className={"General-nav-link"}>测量/分析/检测仪表</Link>
+                      <a href={"/business/instrument#transmitter"} className={"General-nav-link"}>测量/分析/检测仪表</a>
                     </li>
                     <li>
-                      <Link to={"/business/instrument#solution"} className={"General-nav-link"}>液压与气动方案</Link>
+                      <a href={"/business/instrument#solution"} className={"General-nav-link"}>液压与气动方案</a>
                     </li>
                     <li>
-                      <Link to={"/business/instrument#valve"} className={"General-nav-link"}>阀门集成方案与备件</Link>
+                      <a href={"/business/instrument#valve"} className={"General-nav-link"}>阀门集成方案与备件</a>
                     </li>
                     <li>
-                      <Link to={"/business/instrument#burner"} className={"General-nav-link"}>燃烧器及其备件</Link>
+                      <a href={"/business/instrument#burner"} className={"General-nav-link"}>燃烧器及其备件</a>
                     </li>
                     <li>
-                      <Link to={"/business/instrument#monitor"} className={"General-nav-link"}>监控系统</Link>
+                      <a href={"/business/instrument#monitor"} className={"General-nav-link"}>监控系统</a>
                     </li>
                   </ul>
                 </li>
@@ -63,10 +63,10 @@ function Business() {
                   <Link to={"/business/other"} className={"General-nav-link"}>其他自动化业务</Link>
                   <ul>
                     <li>
-                      <Link to={"/business/electrical#vibration"} className={"General-nav-link"}>电磁振动设备</Link>
+                      <a href={"/business/other#vibration"} className={"General-nav-link"}>电磁振动设备</a>
                     </li>
                     <li>
-                      <Link to={"/business/electrical#filter"} className={"General-nav-link"}>除尘配件和整机设备</Link>
+                      <a href={"/business/other#filter"} className={"General-nav-link"}>除尘配件和整机设备</a>
                     </li>
                   </ul>
                 </li>

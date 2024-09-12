@@ -1,5 +1,6 @@
 // import {Table} from "react-bootstrap";
 import { Table } from "antd";
+import {useLocation} from "react-router-dom";
 
 const columns = [
   {
@@ -210,9 +211,13 @@ const data= [
 
 
 function Summary() {
+  if (useLocation().hash === "") {
+    window.scrollTo(0, 0);
+  }
+
   return(
     <div className={"General-content"}>
-      <div className={"General-title"}>
+      <div className={"General-title"} id="summary-top">
         业务概览
       </div>
       <div className={"Business-subtitle"}>
