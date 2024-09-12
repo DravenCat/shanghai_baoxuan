@@ -11,10 +11,10 @@
 }
 
 .Profile-title {
-    padding: 0.5% 1% 0.5% 1%;
+    padding: 0 1% 0.5% 1%;
 }
 
-.Profile-content {
+.Profile-background {
     background-color: rgba(255, 255, 255, 0.8);
     width: 80%;
     padding: 1% 1% 1% 1%;
@@ -35,11 +35,20 @@
 }
 
 .Profile-image {
-    width: 95%;
+    width: 100%;
     height: 20vh;
     margin: 5% 0 5% 0;
 }
 
 .Profile-image-group {
     padding: 0 4% 0 4%;
+}
+
+.Profile-nav {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 40% 5% 40% 5%;
+}
+
+.Profile-content {
+    margin: 1% 0 3% 0;
 }

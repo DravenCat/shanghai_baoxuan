@@ -10,8 +10,8 @@ import img8 from "../../img/profile/p8.png";
 
 
 function Info() {
-  return(
-    <div className={"Profile-content"}>
+  return (
+    <div className={'Profile-content'}>
       <div className={"Profile-title"}>
         公司简介
       </div>
