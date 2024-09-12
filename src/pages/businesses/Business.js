@@ -18,12 +18,27 @@ function Business() {
               <ul className={"General-nav-links"}>
                 <li>
                   <Link to={"/business/electrical"} className={"General-nav-link"}>电气业务</Link>
+                  <ul>
+                    <li>
+                      <Link to={"/business/electrical"} className={"General-nav-link"}>电气业务</Link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <Link to={"/business/instrument"} className={"General-nav-link"}>热工、仪表自控业务</Link>
+                  <ul>
+                    <li>
+                      <Link to={"/business/electrical"} className={"General-nav-link"}>电气业务</Link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <Link to={"/business/other"} className={"General-nav-link"}>其他自动化业务</Link>
+                  <ul>
+                    <li>
+                      <Link to={"/business/electrical"} className={"General-nav-link"}>电气业务</Link>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <Link to={"/business"} className={"General-nav-link"}>业务总览</Link>

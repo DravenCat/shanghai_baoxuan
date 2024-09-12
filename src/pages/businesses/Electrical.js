@@ -4,7 +4,7 @@
 
 function Electrical() {
   return(
-    <div>
+    <div className={"General-content"}>
 
     </div>
   );
