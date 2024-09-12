@@ -1,3 +1,4 @@
+import "./Profile.css"
 import {Col, Row} from "react-bootstrap";
 
 import siemens from "../../img/brand/siemens.png";
@@ -42,11 +43,11 @@ import paker from "../../img/brand/paker.png";
 
 function Brand() {
   return(
-    <div className={"Profile-content"}>
-      <div className={"Profile-title"}>
+    <div className={"General-content"}>
+      <div className={"General-title"}>
         合作品牌
       </div>
-      <hr className={"Profile-hr"}/>
+      <hr className={"General-hr"}/>
       <div className={"Brand-image-group"}>
         {/* Row 1*/}
         <Row>

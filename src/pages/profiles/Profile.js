@@ -1,4 +1,4 @@
-import "./Profile.css"
+import "../General.css"
 
 import Info from "./Info"
 import {Link, Route, Routes} from "react-router-dom";
@@ -9,20 +9,20 @@ import Brand from "./Brand";
 
 function Profile() {
   return(
-    <div className={'Profile-body'}>
-      <div className={"Profile-background"}>
+    <div className={'General-body'}>
+      <div className={"General-background"}>
         <Row>
           <Col lg={2}>
-            <div className={"Profile-nav"}>
+            <div className={"General-nav"}>
               <ul className={"Profile-nav-links"}>
                 <li>
-                  <Link to={"/profile"} className={"Profile-nav-link"}>公司简介</Link>
+                  <Link to={"/profile"} className={"General-nav-link"}>公司简介</Link>
                 </li>
                 <li>
-                  <Link to={"/profile/location"} className={"Profile-nav-link"}>地址信息</Link>
+                  <Link to={"/profile/location"} className={"General-nav-link"}>地址信息</Link>
                 </li>
                 <li>
-                  <Link to={"/profile/brand"} className={"Profile-nav-link"}>合作品牌</Link>
+                  <Link to={"/profile/brand"} className={"General-nav-link"}>合作品牌</Link>
                 </li>
               </ul>
             </div>

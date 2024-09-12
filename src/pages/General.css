@@ -1,0 +1,69 @@
+.General-body {
+    background-color: rgba(0, 0, 0, 0.1);
+    min-height: 92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    font-size: calc(10px + 2vmin);
+    color: black;
+    padding-top: 10vh;
+}
+
+.General-title {
+    padding: 0 1% 0.5% 1%;
+}
+
+.General-background {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 2% 1%;
+}
+
+.General-hr {
+    color: black;
+    width: 85%;
+    margin-left: 7.5%;
+}
+
+.General-text {
+    width: 90%;
+    margin-left: 5%;
+    text-align: left;
+    padding: 1% 0 3% 0;
+}
+
+.General-image {
+    width: 100%;
+    height: 20vh;
+    margin: 5% 0 5% 0;
+}
+
+.General-image-group {
+    padding: 0 4% 0 4%;
+}
+
+.General-nav {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5% 3% 5% 3%;
+    margin-top: 5%;
+    min-height: 30vh;
+    position: fixed;
+}
+
+.General-content {
+    margin: 1% 0 3% 0;
+    min-height: 66vh;
+}
+
+.General-nav-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.General-nav-link:hover {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 1);
+    transition: all 1s;
+}
