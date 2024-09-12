@@ -4,7 +4,9 @@
 
 function Location() {
   return(
-    <div></div>
+    <div className={"Profile-content"}>
+      This is Location page
+    </div>
   );
 }
 
