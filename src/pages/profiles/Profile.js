@@ -13,8 +13,8 @@ function Profile() {
       <div className={"General-background"}>
         <Row>
           <Col lg={2}>
-            <div className={"General-nav"}>
-              <ul className={"Profile-nav-links"}>
+            <div className={"General-nav Profile-nav"}>
+              <ul className={"General-nav-links"}>
                 <li>
                   <Link to={"/profile"} className={"General-nav-link"}>公司简介</Link>
                 </li>

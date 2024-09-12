@@ -1,4 +1,5 @@
 import "../General.css"
+import "./Business.css"
 import {Col, Row} from "react-bootstrap";
 import {Link, Navigate, Route, Routes} from "react-router-dom";
 import Electrical from "./Electrical";
@@ -13,7 +14,7 @@ function Business() {
       <div className={"General-background"}>
         <Row>
           <Col lg={2}>
-            <div className={"General-nav"}>
+            <div className={"General-nav Business-nav"}>
               <ul className={"General-nav-links"}>
                 <li>
                   <Link to={"/business/electrical"} className={"General-nav-link"}>电气业务</Link>

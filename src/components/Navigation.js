@@ -22,7 +22,7 @@ function Navigation() {
               </NavDropdown.Item>
               <NavDropdown.Item href="/business/other">其他自动化业务</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="/business/electrical">业务总览</NavDropdown.Item>
+              <NavDropdown.Item href="/business">业务总览</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/contact">联系方式</Nav.Link>
           </Nav>
