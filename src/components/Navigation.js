@@ -16,13 +16,13 @@ function Navigation() {
             <Nav.Link href="/" >首页</Nav.Link>
             <Nav.Link href="/profile">公司详情</Nav.Link>
             <NavDropdown title="业务详情" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/business">业务总览</NavDropdown.Item>
+              <NavDropdown.Divider />
               <NavDropdown.Item href="/business/electrical">电气业务</NavDropdown.Item>
               <NavDropdown.Item href="/business/instrument">
                 热工、仪表自控业务
               </NavDropdown.Item>
               <NavDropdown.Item href="/business/other">其他自动化业务</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/business">业务总览</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/contact">联系方式</Nav.Link>
           </Nav>

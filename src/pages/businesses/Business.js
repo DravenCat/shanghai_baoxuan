@@ -17,31 +17,58 @@ function Business() {
             <div className={"General-nav Business-nav"}>
               <ul className={"General-nav-links"}>
                 <li>
+                  <Link to={"/business"} className={"General-nav-link"}>业务总览</Link>
+                </li>
+                <br/>
+                <li>
                   <Link to={"/business/electrical"} className={"General-nav-link"}>电气业务</Link>
                   <ul>
                     <li>
-                      <Link to={"/business/electrical"} className={"General-nav-link"}>电气业务</Link>
+                      <Link to={"/business/electrical#DCS&PLC"} className={"General-nav-link"}>DCS/PLC系统集成</Link>
+                    </li>
+                    <li>
+                      <Link to={"/business/electrical#convertor"} className={"General-nav-link"}>变频器/柜与电机</Link>
+                    </li>
+                    <li>
+                      <Link to={"/business/electrical#powersystem"} className={"General-nav-link"}>电力系统器/柜</Link>
+                    </li>
+                    <li>
+                      <Link to={"/business/electrical#lightingsystem"} className={"General-nav-link"}>灯具与照明系统</Link>
                     </li>
                   </ul>
                 </li>
+                <br/>
                 <li>
                   <Link to={"/business/instrument"} className={"General-nav-link"}>热工、仪表自控业务</Link>
                   <ul>
                     <li>
-                      <Link to={"/business/electrical"} className={"General-nav-link"}>电气业务</Link>
+                      <Link to={"/business/instrument#transmitter"} className={"General-nav-link"}>测量/分析/检测仪表</Link>
+                    </li>
+                    <li>
+                      <Link to={"/business/instrument#solution"} className={"General-nav-link"}>液压与气动方案</Link>
+                    </li>
+                    <li>
+                      <Link to={"/business/instrument#valve"} className={"General-nav-link"}>阀门集成方案与备件</Link>
+                    </li>
+                    <li>
+                      <Link to={"/business/instrument#burner"} className={"General-nav-link"}>燃烧器及其备件</Link>
+                    </li>
+                    <li>
+                      <Link to={"/business/instrument#monitor"} className={"General-nav-link"}>监控系统</Link>
                     </li>
                   </ul>
                 </li>
+                <br/>
                 <li>
                   <Link to={"/business/other"} className={"General-nav-link"}>其他自动化业务</Link>
                   <ul>
                     <li>
-                      <Link to={"/business/electrical"} className={"General-nav-link"}>电气业务</Link>
+                      <Link to={"/business/electrical#vibration"} className={"General-nav-link"}>电磁振动设备</Link>
+                    </li>
+                    <li>
+                      <Link to={"/business/electrical#filter"} className={"General-nav-link"}>除尘配件和整机设备</Link>
                     </li>
                   </ul>
-                </li>
-                <li>
-                  <Link to={"/business"} className={"General-nav-link"}>业务总览</Link>
                 </li>
               </ul>
             </div>
