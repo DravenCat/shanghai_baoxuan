@@ -14,7 +14,7 @@ function Navigation() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/" >首页</Nav.Link>
-            <Nav.Link href="/profile">公司简介</Nav.Link>
+            <Nav.Link href="/profile">公司详情</Nav.Link>
             <Nav.Link href="/business">业务详情</Nav.Link>
             <Nav.Link href="/contact">联系方式</Nav.Link>
           </Nav>

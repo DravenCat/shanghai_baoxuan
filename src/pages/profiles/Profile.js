@@ -14,15 +14,15 @@ function Profile() {
         <Row>
           <Col lg={2}>
             <div className={"Profile-nav"}>
-              <ul>
+              <ul className={"Profile-nav-links"}>
                 <li>
-                  <Link to={"/profile"}>公司简介</Link>
+                  <Link to={"/profile"} className={"Profile-nav-link"}>公司简介</Link>
                 </li>
                 <li>
-                  <Link to={"/profile/location"}>地址信息</Link>
+                  <Link to={"/profile/location"} className={"Profile-nav-link"}>地址信息</Link>
                 </li>
                 <li>
-                  <Link to={"/profile/brand"}>合作品牌</Link>
+                  <Link to={"/profile/brand"} className={"Profile-nav-link"}>合作品牌</Link>
                 </li>
               </ul>
             </div>
