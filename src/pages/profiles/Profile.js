@@ -1,7 +1,7 @@
 import "../General.css"
 
 import Info from "./Info"
-import {Link, Route, Routes} from "react-router-dom";
+import {Link, Navigate, Route, Routes} from "react-router-dom";
 import Location from "./Location";
 import {Col, Row} from "react-bootstrap";
 import Brand from "./Brand";
@@ -32,6 +32,7 @@ function Profile() {
               <Route path={"/"} element={<Info />} />
               <Route path={"/location"} element={<Location />}/>
               <Route path={"/brand"} element={<Brand />} />
+              <Route path="*" element={<Navigate to="/" replace={true}/>} />
             </Routes>
           </Col>
         </Row>
