@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
-import Profile from "./pages/Profile";
+import Profile from "./pages/profiles/Profile";
 import Business from "./pages/Business";
 import Navigation from "./components/Navigation";
 
