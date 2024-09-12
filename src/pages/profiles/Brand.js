@@ -69,14 +69,15 @@ function Brand() {
 
         {/* Row 2*/}
         <Row>
-          <Col xs={2}>
+          <Col xs={3}>
             <img src={schneider} alt="Schneider" className={"Brand-image"}/>
           </Col>
           <Col xs={3}>
             <img src={honeywell} alt="Honeywell" className={"Brand-image"}/>
           </Col>
-          <Col xs={3}>
-            <img src={panasonic} alt="Panasonic" className={"Brand-image"}/>
+
+          <Col xs={2}>
+            <img src={paker} alt="Paker Automation" className={"Brand-image"}/>
           </Col>
           <Col xs={2}>
             <img src={lenze} alt="Lenze" className={"Brand-image"}/>
@@ -132,11 +133,14 @@ function Brand() {
           <Col xs={3}>
             <img src={moxa} alt="MOXA" className={"Brand-image"}/>
           </Col>
-          <Col xs={3}>
-            <img src={phoenix} alt="PHOENIX CONTACT" className={"Brand-image"}/>
+          <Col xs={2}>
+            <img src={fag} alt="FAG" className={"Brand-image"}/>
           </Col>
-          <Col xs={3}>
-            <img src={omron} alt="OMRON" className={"Brand-image"}/>
+          <Col xs={2}>
+            <img src={iinaa} alt="INA" className={"Brand-image"}/>
+          </Col>
+          <Col xs={2}>
+            <img src={nsk} alt="NSK Motion & Control" className={"Brand-image"}/>
           </Col>
         </Row>
 
@@ -156,52 +160,38 @@ function Brand() {
           </Col>
         </Row>
 
-        {/* Row 7*/}
-        <Row>
-
-
-
-        </Row>
-
         {/* Row 8*/}
         <Row>
-          <Col xs={3}>
+          <Col xs={2}>
             <img src={sew} alt="SEW EURODRIVE" className={"Brand-image"}/>
           </Col>
-          <Col xs={3}>
+          <Col xs={2}>
             <img src={skf} alt="SKF" className={"Brand-image"}/>
           </Col>
-          <Col xs={3}>
+          <Col xs={2}>
             <img src={ntn} alt="NTN Bearings" className={"Brand-image"}/>
           </Col>
           <Col xs={3}>
-            <img src={fag} alt="FAG" className={"Brand-image"}/>
+            <img src={phoenix} alt="PHOENIX CONTACT" className={"Brand-image"}/>
+          </Col>
+          <Col xs={3}>
+            <img src={omron} alt="OMRON" className={"Brand-image"}/>
           </Col>
         </Row>
 
         {/* Row 9*/}
         <Row>
-          <Col xs={3}>
-            <img src={iinaa} alt="INA" className={"Brand-image"}/>
-          </Col>
-          <Col xs={3}>
-            <img src={nsk} alt="NSK Motion & Control" className={"Brand-image"}/>
-          </Col>
-          <Col xs={3}>
+          <Col xs={2}>
             <img src={idec} alt="IDEC" className={"Brand-image"}/>
           </Col>
-          <Col xs={3}>
+          <Col xs={2}>
             <img src={eaton} alt="EATON Powering Business Worldwide" className={"Brand-image"}/>
           </Col>
-        </Row>
-
-        {/* Row 10*/}
-        <Row>
-          <Col xs={3}>
+          <Col xs={2}>
             <img src={rexroth} alt="Rexroth Bosch Group" className={"Brand-image"}/>
           </Col>
           <Col xs={3}>
-            <img src={paker} alt="Paker Automation" className={"Brand-image"}/>
+            <img src={panasonic} alt="Panasonic" className={"Brand-image"}/>
           </Col>
         </Row>
       </div>
