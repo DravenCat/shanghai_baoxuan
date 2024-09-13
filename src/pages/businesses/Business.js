@@ -91,7 +91,7 @@ function Business() {
                   <li>
                     <Link to={"/business?language=en"} className={"General-nav-link"}>Product Summary Table</Link>
                   </li>
-                  <br/>
+
                   <li>
                     <Link to={"/business/electrical?language=en"} className={"General-nav-link"}>Electrical & Automation</Link>
                     <ul>
@@ -111,7 +111,7 @@ function Business() {
                       </li>
                     </ul>
                   </li>
-                  <br/>
+
                   <li>
                     <Link to={"/business/instrument?language=en"} className={"General-nav-link"}>
                       Thermal Engineering
@@ -139,7 +139,7 @@ function Business() {
                       </li>
                     </ul>
                   </li>
-                  <br/>
+
                   <li>
                     <Link to={"/business/other?language=en"} className={"General-nav-link"}>Other</Link>
                     <ul>
