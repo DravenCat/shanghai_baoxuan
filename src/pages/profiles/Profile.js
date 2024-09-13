@@ -44,7 +44,7 @@ function Profile() {
               </div>
               :
               <div className={"General-nav-en Profile-nav-en"}>
-                <ul className={"General-nav-links-en"}>
+                <ul className={"General-nav-links-en Profile-nav-links-en"}>
                   <li>
                     <Link to={"/profile?language=en"} className={"General-nav-link"}>Company Profile</Link>
                   </li>
