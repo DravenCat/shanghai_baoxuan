@@ -144,7 +144,8 @@ function Business() {
                     <Link to={"/business/other?language=en"} className={"General-nav-link"}>Other</Link>
                     <ul>
                       <li>
-                        <a href={"/business/other?language=en#vibration"} className={"General-nav-link"}>Electromagnetic<br/> Vibration</a>
+                        <a href={"/business/other?language=en#vibration"} className={"General-nav-link"}>Electromagnetic<br/> Vibration
+                        Equipment</a>
                       </li>
                       <li>
                         <a href={"/business/other?language=en#filter"} className={"General-nav-link"}>Filter Equipment</a>
