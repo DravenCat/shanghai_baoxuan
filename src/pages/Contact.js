@@ -2,26 +2,50 @@ import "./Contact.css"
 import weChatQR from "../img/contacts/WeChat.jpg"
 import whatsAppQR from "../img/contacts/WhatsApp.jpg"
 import {Col, Row} from "react-bootstrap";
+import wechat from "../img/contacts/wechat-logo.png";
+import whatsapp from "../img/contacts/whatsapp-6860919_1280.webp";
 
 
 function Contact() {
+
+  const getLanguage = () => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const language = searchParams.get('language');
+    if (language === "en") {
+      return 0;
+    }
+    return 1;
+  }
+
+  // 1 chinese, 0 english
+  let isChinese = getLanguage();
+
+
   return(
       <div className={"General-body"}>
         <div className={"Contact-background"}>
           <p>
-            联系方式
+            {isChinese ? '联系方式' : 'Contact'}
           </p>
           <p>
             任筱勇 Ren Xiaoyong
           </p>
           <p>
-            手机 +86 13801951535
+            {isChinese ? '手机' : 'Phone'} +86 13801951535
           </p>
           <Row>
             <Col >
-              <img src={weChatQR} className={"App-picture"} alt="wechat"/>
+              <Row>
+                <img src={wechat} className={"Contact-app"} alt="wechat"/>
+              </Row>
+              <img src={weChatQR} className={"App-picture"} alt="wechatQR"/>
             </Col>
-            <Col><img src={whatsAppQR} className={"App-picture"} alt="whatsapp"/></Col>
+            <Col>
+              <Row>
+                <img src={whatsapp} className={"Contact-app"} alt="whatsapp"/>
+              </Row>
+              <img src={whatsAppQR} className={"App-picture"} alt="whatsappQR"/>
+            </Col>
           </Row>
         </div>
       </div>
