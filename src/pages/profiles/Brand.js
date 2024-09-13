@@ -42,11 +42,32 @@ import paker from "../../img/brand/paker.png";
 
 
 function Brand() {
+
+  const getLanguage = () => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const language = searchParams.get('language');
+    if (language === "en") {
+      return 0;
+    }
+    return 1;
+  }
+
+  // 1 chinese, 0 english
+  let isChinese = getLanguage();
+
+
   return(
     <div className={"General-content"}>
-      <div className={"General-title"}>
-        合作品牌
-      </div>
+      {isChinese?
+        <div className={"General-title"}>
+          合作品牌
+        </div>
+        :
+        <div className={"General-title"}>
+          Cooperation Brand
+        </div>
+      }
+
       <hr className={"General-hr"}/>
       <div className={"Brand-image-group"}>
         {/* Row 1*/}
