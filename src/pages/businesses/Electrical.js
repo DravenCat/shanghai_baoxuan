@@ -167,7 +167,6 @@ function Electrical() {
         :
         <div className={"General-text Business-text"} id="lightingsystem">
           <li className={"Business-text-subtitle"}>
-            Lamps &
             Lighting systems
           </li>
           - Lighting System, LED lamp, LED street lamps, the LED tunnel lamps, the LED mining lamps, the LED flood lamps and the LED solar-wind complementary lamps

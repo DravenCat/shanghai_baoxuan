@@ -9,6 +9,13 @@
     font-size: 17px;
 }
 
+.Business-subtitle-en {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 17px;
+    width: 80%;
+    margin-left: 10%;
+}
+
 .Business-summary-table {
     margin: 1% 4% 1% 4%;
     font-size: 20px;
@@ -37,3 +44,4 @@ html{
     font-size: 25px;
     font-weight: 1000;
 }
+

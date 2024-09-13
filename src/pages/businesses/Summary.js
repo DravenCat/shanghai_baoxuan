@@ -39,6 +39,43 @@ const columns = [
   },
 ];
 
+const columns_en = [
+  {
+    title: '#',
+    dataIndex: 'number',
+    width: "10%",
+    align: 'center',
+  },
+  {
+    title: 'Product',
+    dataIndex: 'name',
+    align: 'center',
+    width: "70%",
+  },
+  {
+    title: 'Field',
+    dataIndex: 'field',
+    width: "20%",
+    align: 'center',
+    onCell: (_, index) => {
+      if (index === 0) {
+        return { rowSpan: 14 };
+      }
+      if (index === 14) {
+        return { rowSpan: 14 }
+      }
+      if (index === 28) {
+        return { rowSpan: 5 }
+      }
+      if (index !== 0 && index !== 14 && index !== 28) {
+        return { rowSpan: 0 };
+      }
+
+      return {};
+    },
+  },
+];
+
 const data= [
   {
     key: '1',
@@ -64,7 +101,7 @@ const data= [
   {
     key: '5',
     number: '5',
-    name: '电气小三箱（照明配电箱、就地控制箱、开关箱、紧停箱、检修电源箱等',
+    name: '电气小三箱（照明配电箱、就地控制箱、开关箱、紧停箱、检修电源箱等)',
   },
   {
     key: '6',
@@ -209,6 +246,179 @@ const data= [
   },
 ];
 
+const data_en= [
+  {
+    key: '1',
+    number: '1',
+    name: '10KVA, 6KVA high voltage frequency convertor and annual maintenance service',
+    field: 'Electical & Automation',
+  },
+  {
+    key: '2',
+    number: '2',
+    name: '380VAC low voltage frequency convertor and control cabinet and annual maintenance service',
+  },
+  {
+    key: '3',
+    number: '3',
+    name: 'UPS and bypass cabinets, battery packs/cabinets, etc. and annual maintenance service',
+  },
+  {
+    key: '4',
+    number: '4',
+    name: 'DC screen, DC charging system and annual maintenance service',
+  },
+  {
+    key: '5',
+    number: '5',
+    name: 'lighting distribution box, local control box, switch box, emergency stop box, maintenance power box, etc.',
+  },
+  {
+    key: '6',
+    number: '6',
+    name: 'Electric metering system and annual maintenance service',
+  },
+  {
+    key: '7',
+    number: '7',
+    name: 'Diesel motor and diesel electrical system, as well as annual maintenance service',
+  },
+  {
+    key: '8',
+    number: '8',
+    name: 'High voltage capacitor and inductor (high voltage compensation)',
+  },
+  {
+    key: '9',
+    number: '9',
+    name: 'Low voltage capacitor and inductor (low voltage compensation)',
+  },
+  {
+    key: '10',
+    number: '10',
+    name: 'Medium and high voltage circuit breakers',
+  },
+  {
+    key: '11',
+    number: '11',
+    name: 'High voltage distribution cabinet',
+  },
+  {
+    key: '12',
+    number: '12',
+    name: 'Low voltage distribution cabinet',
+  },
+  {
+    key: '13',
+    number: '13',
+    name: 'High voltage motors, low voltage motors, cables',
+  },
+  {
+    key: '14',
+    number: '14',
+    name: 'Lamps and lighting system',
+  },
+  {
+    key: '15',
+    number: '15',
+    name: 'DCS control system and annual maintenance service',
+    field: 'Thermal Engineering & Instrumentation',
+  },
+  {
+    key: '16',
+    number: '16',
+    name: 'Auxiliary control system, including coal conveying PLC control system, ash and slag removal PLC control ' +
+      'system, condensate water PLC control system and other auxiliary control PLC control systems',
+  },
+  {
+    key: '17',
+    number: '17',
+    name: 'Water quality analytical instruments and annual maintenance services',
+  },
+  {
+    key: '18',
+    number: '18',
+    name: 'Pressure transmitter, temperature transmitter, thermocouple, thermal resistor, etc.',
+  },
+  {
+    key: '19',
+    number: '19',
+    name: 'Flow meters, including electromagnetic flow meters, mass flow meters, vortex flow meters, etc.',
+  },
+  {
+    key: '20',
+    number: '20',
+    name: 'Level instruments, including radar level meter, radar liquid level meter, ultrasonic material (liquid) level meter, etc.',
+  },{
+    key: '21',
+    number: '21',
+    name: 'Weighing instruments, including weighing sensors and supporting instruments',
+  },
+  {
+    key: '22',
+    number: '22',
+    name: 'Fire detection system',
+  },{
+    key: '23',
+    number: '23',
+    name: 'Instrument cabinet, valve island box, solenoid valve cabinet, pneumatic cabinet',
+  },
+  {
+    key: '24',
+    number: '24',
+    name: 'Gas detection, toxic gas (liquid) detection instruments and control systems, personal protection products, etc.',
+  },
+  {
+    key: '25',
+    number: '25',
+    name: 'Industrial switches, valves',
+  },
+  {
+    key: '26',
+    number: '26',
+    name: 'Monitoring system, including the design, integration, configuration debugging and system ' +
+      'maintenance of weak current monitoring system, access control system, security system, ' +
+      'substation integrated automation monitoring system, etc.',
+  },
+  {
+    key: '27',
+    number: '27',
+    name: 'Steam turbine air gap sensor system, steam turbine key phase axial measurement sensor system,' +
+      ' magnetic flux density measurement sensor system',
+  },
+  {
+    key: '28',
+    number: '28',
+    name: 'Building Automation Systems',
+  },
+  {
+    key: '29',
+    number: '29',
+    name: 'Bag Filter Equipment, Dust-removing equipment and filter-bag, Bearing, Belt, Gears and racks, Shaft, Sealing element',
+    field: 'Other',
+  },
+  {
+    key: '30',
+    number: '30',
+    name: 'electromagnetic vibrating conveyor and electro-vibrating feeder',
+  },
+  {
+    key: '31',
+    number: '31',
+    name: 'Energy Management System',
+  },
+  {
+    key: '32',
+    number: '32',
+    name: 'Location management system for construction personnel, staff, mobile equipment, etc.',
+  },
+  {
+    key: '33',
+    number: '33',
+    name: 'Intelligent distribution box/cabinet',
+  },
+];
+
 
 function Summary() {
 
@@ -231,20 +441,44 @@ function Summary() {
 
   return(
     <div className={"General-content"}>
-      <div className={"General-title"} id="summary-top">
-        业务产品总览表
-      </div>
-      <div className={"Business-subtitle"}>
-        用于市政（自来水、污水）建材、化工行业（生物化工）、发电行业、煤矿的产品汇总
-      </div>
+      {isChinese?
+        <div className={"General-title"} id="summary-top">
+          业务产品总览表
+        </div>
+        :
+        <div className={"General-title"} id="summary-top">
+          Product Summary Table
+        </div>
+      }
+      {isChinese?
+        <div className={"Business-subtitle"}>
+          用于市政（自来水、污水）建材、化工行业（生物化工）、发电行业、煤矿的产品汇总
+        </div>
+        :
+        <div className={"Business-subtitle-en"}>
+          Products summary for municipal (tap water, sewage) building materials, chemical industry (biochemical
+          industry), power generation industry, coal mines
+        </div>
+      }
+
       <hr className={"General-hr"}/>
       <div className={"Business-summary-table"}>
-        <Table
-          columns={columns}
-          dataSource={data}
-          bordered
-          pagination={false}
-        />
+        {isChinese?
+          <Table
+            columns={columns}
+            dataSource={data}
+            bordered
+            pagination={false}
+          />
+          :
+          <Table
+            columns={columns_en}
+            dataSource={data_en}
+            bordered
+            pagination={false}
+          />
+        }
+
       </div>
     </div>
   );
