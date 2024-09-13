@@ -11,7 +11,7 @@ import panasonic from "../../img/brand/panasonic.png";
 import lenze from "../../img/brand/lenze.png";
 import pba from "../../img/brand/pba.png";
 import wittenstein from "../../img/brand/wittenstein.png";
-import leadrack from "../../img/brand/LeadRack.png";
+import leadrack from "../../img/brand/Leadrack.png";
 import ge from "../../img/brand/GE.png";
 import danfoss from "../../img/brand/danfoss.png";
 import wanshsin from "../../img/brand/wanshsin.png";
