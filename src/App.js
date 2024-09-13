@@ -8,10 +8,31 @@ import Footer from "./components/Footer";
 import Profile from "./pages/profiles/Profile";
 import Business from "./pages/businesses/Business";
 import Navigation from "./components/Navigation";
+import {createContext, useState} from "react";
 
-const isChinese = true;
 
 function App() {
+
+  const languageContext = createContext(0);
+
+  const languageProvider = ({ language }) => {
+    const [isChinese, setLanguage] = useState(0);
+
+    const chinese = () => {
+      setLanguage(0);
+    };
+
+    const english = () => {
+      setLanguage(1);
+    };
+
+    return (
+      <languageContext.Provider value={{ isChinese, chinese, english }}>
+        {language}
+      </languageContext.Provider>
+    );
+  };
+
   return (
     <div className="App">
       <header>

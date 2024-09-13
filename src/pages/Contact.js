@@ -6,23 +6,27 @@ import {Col, Row} from "react-bootstrap";
 
 function Contact() {
   return(
-      <div className={"App-body"}>
-        <p>
-          Our contacts
-        </p>
-        <p>
-          任筱勇 Ren Xiaoyong
-        </p>
-        <p>
-          Phone number +86 13801951535
-        </p>
-        <Row>
-          <Col >
-            <img src={weChatQR} className={"App-picture"} alt="wechat"/>
-          </Col>
-          <Col><img src={whatsAppQR} className={"App-picture"} alt="whatsapp"/></Col>
-        </Row>
+      <div className={"General-body"}>
+        <div className={"Contact-background"}>
+          {/*<div className={"General-content"}>*/}
 
+          <p>
+            联系方式
+          </p>
+          <p>
+            任筱勇 Ren Xiaoyong
+          </p>
+          <p>
+            手机 +86 13801951535
+          </p>
+          <Row>
+            <Col >
+              <img src={weChatQR} className={"App-picture"} alt="wechat"/>
+            </Col>
+            <Col><img src={whatsAppQR} className={"App-picture"} alt="whatsapp"/></Col>
+          </Row>
+          {/*</div>*/}
+        </div>
       </div>
   );
 }

@@ -1,3 +1,6 @@
-.Contact-body {
-
+.Contact-background {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 60%;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 2% 1%;
 }
