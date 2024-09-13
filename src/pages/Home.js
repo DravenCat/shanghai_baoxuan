@@ -124,6 +124,7 @@ function Home() {
                   conveyor, electro-vibrating feeder, energy management system, positioning management system,
                   intelligent distribution box/cabinet and other products
                 </Card.Text>
+                <br/>
                 <Button variant="primary" href="/business/other?language=en">Details</Button>
               </Card.Body>
             }
