@@ -1,7 +1,7 @@
 import "../General.css"
 
 import Info from "./Info"
-import {Link, Navigate, Route, Routes, useLocation} from "react-router-dom";
+import {Link, Navigate, Route, Routes} from "react-router-dom";
 import Location from "./Location";
 import {Col, Row} from "react-bootstrap";
 import Brand from "./Brand";

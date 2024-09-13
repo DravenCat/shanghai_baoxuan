@@ -5,7 +5,6 @@ import otherImg from "../img/home/other3.png"
 
 import './Home.css'
 import {Button, Card, Row} from "react-bootstrap";
-import {useLocation} from "react-router-dom";
 
 
 function Home() {
