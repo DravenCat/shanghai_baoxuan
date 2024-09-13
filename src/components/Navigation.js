@@ -4,10 +4,11 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Navigation() {
+
   return (
     <Navbar expand="lg" className="bg-body-tertiary" fixed={"top"}>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <img src={require("../img/logo.png")} alt="ShanghaiBaoXuan"/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -29,8 +30,8 @@ function Navigation() {
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
           <NavDropdown title="语言/Language" id="language-drop-down">
-            <NavDropdown.Item id="language-chinese" href="#action/3.1">简体中文</NavDropdown.Item>
-            <NavDropdown.Item id="language-english" href="#action/3.2">English</NavDropdown.Item>
+            <NavDropdown.Item id="language-chinese" >简体中文</NavDropdown.Item>
+            <NavDropdown.Item id="language-english" >English</NavDropdown.Item>
           </NavDropdown>
         </Navbar.Collapse>
       </Container>

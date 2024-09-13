@@ -8,8 +8,6 @@ function Contact() {
   return(
       <div className={"General-body"}>
         <div className={"Contact-background"}>
-          {/*<div className={"General-content"}>*/}
-
           <p>
             联系方式
           </p>
@@ -25,7 +23,6 @@ function Contact() {
             </Col>
             <Col><img src={whatsAppQR} className={"App-picture"} alt="whatsapp"/></Col>
           </Row>
-          {/*</div>*/}
         </div>
       </div>
   );
