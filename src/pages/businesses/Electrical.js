@@ -39,8 +39,8 @@ function Electrical() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="DCS_PLC">
-          <li>
+        <div className={"General-text Business-text"} id="DCS_PLC">
+          <li className={"Business-text-subtitle"}>
             DCS/PLC 系统集成
           </li>
           - DCS/PLC系统集成，包括系统控制柜、HMI（触摸屏）、自动化网络（PC操作站、工程师站、电缆、光缆、网关）、软件编程
@@ -52,8 +52,8 @@ function Electrical() {
           <img src={dcs_plc} className={"Business-single-image"} alt="DCS/PLC" />
         </div>
         :
-        <div className={"General-text"} id="DCS_PLC">
-          <li>
+        <div className={"General-text Business-text"} id="DCS_PLC">
+          <li className={"Business-text-subtitle"}>
             DCS/PLC System Integration
           </li>
           DCS/PLC system integration, including system control cabinet, HMI (Touch Screen), Automated network
@@ -69,8 +69,8 @@ function Electrical() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="convertor">
-          <li>
+        <div className={"General-text Business-text"} id="convertor">
+          <li className={"Business-text-subtitle"}>
             变频器/柜与电机
           </li>
           - MCC 柜生产集成、变频器/柜、软启动器/柜、电机启动器保护柜、伺服控制柜
@@ -86,8 +86,8 @@ function Electrical() {
           <img src={convertor} className={"Business-single-image"} alt={"Convertor"}/>
         </div>
         :
-        <div className={"General-text"} id="convertor">
-          <li>
+        <div className={"General-text Business-text"} id="convertor">
+          <li className={"Business-text-subtitle"}>
             Convertor and Motor
           </li>
           - MCC cabinet, Frequency convertor/cabinet, Soft starter/cabinet, Motor starter protect cabinet, Servo control cabinet
@@ -107,8 +107,8 @@ function Electrical() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="powersystem">
-          <li>
+        <div className={"General-text Business-text"} id="powersystem">
+          <li className={"Business-text-subtitle"}>
             电力系统器/柜
           </li>
           - 高低压配电柜；开关柜；UPS及电池组柜体生产成套
@@ -129,8 +129,8 @@ function Electrical() {
           <img src={powersystem} className={"Business-single-image"} alt="PowerSystem" />
         </div>
         :
-        <div className={"General-text"} id="powersystem">
-          <li>
+        <div className={"General-text Business-text"} id="powersystem">
+          <li className={"Business-text-subtitle"}>
             Power System
           </li>
           - High and low voltage distribution cabinet; Switch cabinet; UPS and battery pack
@@ -155,8 +155,8 @@ function Electrical() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="lightingsystem">
-          <li>
+        <div className={"General-text Business-text"} id="lightingsystem">
+          <li className={"Business-text-subtitle"}>
             灯具与照明系统
           </li>
           - LED灯具、包含工矿灯、路灯、LED投光灯、LED荧光、LED三防吸顶灯等
@@ -165,8 +165,8 @@ function Electrical() {
           <img src={lightingsystem} className={"Business-single-image"} alt="Light" />
         </div>
         :
-        <div className={"General-text"} id="lightingsystem">
-          <li>
+        <div className={"General-text Business-text"} id="lightingsystem">
+          <li className={"Business-text-subtitle"}>
             Lamps &
             Lighting systems
           </li>

@@ -28,3 +28,12 @@ html{
     font-size: 18px;
     margin: 0 0 0 0;
 }
+
+.Business-text {
+    font-size: 20px;
+}
+
+.Business-text-subtitle {
+    font-size: 25px;
+    font-weight: 1000;
+}

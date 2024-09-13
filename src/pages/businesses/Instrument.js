@@ -41,8 +41,8 @@ function Instrument() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="transmitter">
-          <li>
+        <div className={"General-text Business-text"} id="transmitter">
+          <li className={"Business-text-subtitle"}>
             测量/分析/检测仪表
           </li>
           - 测量仪表集（仪表柜），包括压力差压变送器、温度变送器、传感器等
@@ -63,8 +63,8 @@ function Instrument() {
           <img src={instrument1} alt="Transmitter" className="Business-single-image" />
         </div>
         :
-        <div className={"General-text"} id="transmitter">
-          <li>
+        <div className={"General-text Business-text"} id="transmitter">
+          <li className={"Business-text-subtitle"}>
             Transmitter & Instruments
           </li>
           - Pressure transmitter/Differential pressure transmitter; Temperature transmitter
@@ -89,8 +89,8 @@ function Instrument() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="solution">
-          <li>
+        <div className={"General-text Business-text"} id="solution">
+          <li className={"Business-text-subtitle"}>
             液压与气动方案
           </li>
           - 提供完整的的气动方案，包括气缸、电磁阀、过滤减压阀、气动柜、气动设备集成柜体和元件供应
@@ -101,8 +101,8 @@ function Instrument() {
           <img src={instrument2} alt="Solution" className="Business-single-image" />
         </div>
         :
-        <div className={"General-text"} id="solution">
-          <li>
+        <div className={"General-text Business-text"} id="solution">
+          <li className={"Business-text-subtitle"}>
             Pneumatic &
             Hydraulic Solution
           </li>
@@ -118,8 +118,8 @@ function Instrument() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="valve">
-          <li>
+        <div className={"General-text Business-text"} id="valve">
+          <li className={"Business-text-subtitle"}>
             阀门集成方案与备件
           </li>
           - 提供完整的阀门集成方案和阀门备件，包括球阀、碟阀、各种水阀、电动阀门、气动阀门、调节阀、开关阀、闸阀
@@ -130,8 +130,8 @@ function Instrument() {
           <img src={instrument3} alt="Valve" className="Business-single-image" />
         </div>
         :
-        <div className={"General-text"} id="valve">
-          <li>
+        <div className={"General-text Business-text"} id="valve">
+          <li className={"Business-text-subtitle"}>
             Valve & Actuator
           </li>
           - Valve, including Electric Valve, Pneumatic valve, Regulating valve, on-off valve, Gate valve...
@@ -147,16 +147,16 @@ function Instrument() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="burner">
-          <li>
+        <div className={"General-text Business-text"} id="burner">
+          <li className={"Business-text-subtitle"}>
             燃烧器及其备件
           </li>
           - 相关品牌: 霍尼韦尔（Honeywell）, 中国本地品牌等
           <img src={instrument4} alt="Burner" className="Business-single-image" />
         </div>
         :
-        <div className={"General-text"} id="burner">
-          <li>
+        <div className={"General-text Business-text"} id="burner">
+          <li className={"Business-text-subtitle"}>
             Burner and Burner components
           </li>
           - Brand: Honeywell, chinese local product...
@@ -166,8 +166,8 @@ function Instrument() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="monitor">
-          <li>
+        <div className={"General-text Business-text"} id="monitor">
+          <li className={"Business-text-subtitle"}>
             监控系统
           </li>
           - 监控系统，包括弱电监控系统、门禁监控系统、安防系统、变电站综合自动化监控系统等的设计、集成、组态调试和系统维护
@@ -179,8 +179,8 @@ function Instrument() {
           <img src={instrument5} alt="Monitor" className="Business-single-image" />
         </div>
         :
-        <div className={"General-text"} id="monitor">
-          <li>
+        <div className={"General-text Business-text"} id="monitor">
+          <li className={"Business-text-subtitle"}>
             Monitoring System
           </li>
           - Video monitoring systems, including the design, integration, configuration debugging and system maintenance of

@@ -36,8 +36,8 @@ function Other() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="vibration">
-          <li>
+        <div className={"General-text Business-text"} id="vibration">
+          <li className={"Business-text-subtitle"}>
             电磁振动设备
           </li>
           - 电磁振动输送设备、电磁振动给料机及其配件
@@ -46,8 +46,8 @@ function Other() {
           <img src={other1} alt="electromagnetic vibrating conveyor" className="Business-single-image" />
         </div>
         :
-        <div className={"General-text"} id="vibration">
-          <li>
+        <div className={"General-text Business-text"} id="vibration">
+          <li className={"Business-text-subtitle"}>
             Electromagnetic Vibration Equipment
           </li>
           - Electromagnetic vibrating conveyor, and its spare parts
@@ -61,8 +61,8 @@ function Other() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"} id="filter">
-          <li>
+        <div className={"General-text Business-text"} id="filter">
+          <li className={"Business-text-subtitle"}>
             除尘配件和整机设备
           </li>
           - 除尘配件和整机除尘设备，除尘配件包括：过滤布袋、除尘滤袋（过滤滤袋）、除尘骨架（袋笼）、电磁脉冲阀、膜片、卸料器等一系列除尘配件产品
@@ -71,8 +71,8 @@ function Other() {
           <img src={other2} alt="Filter Equipment" className="Business-single-image" />
         </div>
         :
-        <div className={"General-text"} id="filter">
-          <li>
+        <div className={"General-text Business-text"} id="filter">
+          <li className={"Business-text-subtitle"}>
             Filter Equipment
           </li>
           - Bag Filter Equipment, Dust-removing equipment, and its spare parts
