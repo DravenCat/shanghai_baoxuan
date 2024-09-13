@@ -100,7 +100,7 @@ function Business() {
                           Integration</a>
                       </li>
                       <li>
-                        <a href={"/business/electrical?language=en#convertor"} className={"General-nav-link"}>convertor and Motor</a>
+                        <a href={"/business/electrical?language=en#convertor"} className={"General-nav-link"}>Convertor and Motor</a>
                       </li>
                       <li>
                         <a href={"/business/electrical?language=en#powersystem"} className={"General-nav-link"}>Power System</a>
