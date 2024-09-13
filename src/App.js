@@ -15,10 +15,10 @@ function App() {
 
   return (
     <div className="App">
-      <header>
-        <Navigation />
-      </header>
       <Router>
+        <header>
+          <Navigation />
+        </header>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/profile/*' element={<Profile />} />
