@@ -102,6 +102,18 @@
     font-size: 40px;
 }
 
+.text-on-image-en {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0% 3% 0.5% 3%;
+    width: 50%;
+    position: relative;
+    bottom: 30vh;
+    left: 25%;
+    /*right: 50%;*/
+    font-family: "Segoe UI", sans-serif;
+    font-size: 25px;
+}
+
 .Home-content-title {
     background: rgba(255, 255, 255, 0.9);
     width: 81%;
