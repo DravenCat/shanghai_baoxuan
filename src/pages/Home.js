@@ -4,7 +4,7 @@ import transmitterImg from "../img/home/trasmitter3.png"
 import otherImg from "../img/home/other3.png"
 
 import './Home.css'
-import {Button, Card, Col, NavLink, Row} from "react-bootstrap";
+import {Button, Card, Row} from "react-bootstrap";
 
 
 function Home() {
