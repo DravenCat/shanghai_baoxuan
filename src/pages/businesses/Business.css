@@ -22,3 +22,9 @@
 html{
     scroll-padding-top: 60px;
 }
+
+.Business-nav-en {
+    padding: 1% 0.5% 0.5% 0;
+    font-size: 18px;
+    margin: 0 0 0 0;
+}

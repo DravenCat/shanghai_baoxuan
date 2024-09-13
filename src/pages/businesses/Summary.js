@@ -211,6 +211,20 @@ const data= [
 
 
 function Summary() {
+
+  const getLanguage = () => {
+    const searchParams = new URLSearchParams(window.location.search);
+    const language = searchParams.get('language');
+    if (language === "en") {
+      return 0;
+    }
+    return 1;
+  }
+
+// 1 chinese, 0 english
+  let isChinese = getLanguage();
+
+
   if (useLocation().hash === "") {
     window.scrollTo(0, 0);
   }
