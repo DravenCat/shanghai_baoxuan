@@ -17,7 +17,7 @@ function Business() {
             <div className={"General-nav Business-nav"}>
               <ul className={"General-nav-links"}>
                 <li>
-                  <Link to={"/business"} className={"General-nav-link"}>业务总览</Link>
+                  <Link to={"/business"} className={"General-nav-link"}>业务产品总览表</Link>
                 </li>
                 <br/>
                 <li>
