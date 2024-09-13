@@ -4,7 +4,6 @@ import instrument2 from "../../img/instrument/instrument2.png";
 import instrument3 from "../../img/instrument/instrument3.png";
 import instrument4 from "../../img/instrument/instrument4.png";
 import instrument5 from "../../img/instrument/instrument5.png";
-import other1 from "../../img/other/other1.png";
 
 
 function Instrument() {

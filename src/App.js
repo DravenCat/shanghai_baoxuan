@@ -1,6 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
-import {BrowserRouter as Router, Routes, Route, Navigate, useLocation} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";

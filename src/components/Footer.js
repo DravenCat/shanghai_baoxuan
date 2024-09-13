@@ -1,6 +1,3 @@
-import Container from 'react-bootstrap/Container';
-import {DropdownDivider} from "react-bootstrap";
-
 function Footer() {
 
   const getLanguage = () => {

@@ -22,8 +22,6 @@ function Home() {
   // 1 chinese, 0 english
   let isChinese = getLanguage();
 
-  let getURL = useLocation().pathname;
-
 
   return (
     <div className={"Home"}>
