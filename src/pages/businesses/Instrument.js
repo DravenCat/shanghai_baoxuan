@@ -125,7 +125,7 @@ function Instrument() {
           <br/>
           - 提供电动执行器、气动执行器、阀门定位器等产品
           <br/>
-          - 相关品牌: 西门子（Siemens）, ABB, 飞世尔（Fisher）, 罗托克（Rotork）, 中国本地品牌等
+          - 相关品牌: 西门子（Siemens）, ABB, 费希尔（Fisher）, 罗托克（Rotork）, 中国本地品牌等
           <img src={instrument3} alt="Valve" className="Business-single-image" />
         </div>
         :

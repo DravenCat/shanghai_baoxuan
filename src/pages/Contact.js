@@ -27,11 +27,12 @@ function Contact() {
           <p>
             {isChinese ? '联系方式' : 'Contact'}
           </p>
+          <hr className={"General-hr"}/>
           <p>
             任筱勇 Ren Xiaoyong
           </p>
           <p>
-            {isChinese ? '手机' : 'Phone'} +86 13801951535
+            {isChinese ? '手机' : 'Mobile'} +86 13801951535
           </p>
           <Row>
             <Col >
@@ -47,6 +48,13 @@ function Contact() {
               <img src={whatsAppQR} className={"App-picture"} alt="whatsappQR"/>
             </Col>
           </Row>
+          <hr className={"General-hr"}/>
+          <p>
+            吴小兵 Wu Xiaobin
+          </p>
+          <p>
+            {isChinese ? '手机' : 'Mobile'} +86 18117583670
+          </p>
         </div>
       </div>
   );
