@@ -80,3 +80,36 @@
 .General-nav-links-en {
     font-size: 16px;
 }
+
+@media screen and (max-width: 800px) {
+    .General-content {
+        width: 40%;
+    }
+    .General-hr {
+        width: 180%;
+        margin-left: 70%;
+    }
+    .General-title {
+        width: 180%;
+        margin-left: 70%;
+        font-size: 150%;    
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .General-content {
+        width: 100%;
+    }
+    .General-body {
+        padding-top: 3%;
+    }
+    .General-hr {
+        width: 80%;
+        margin-left: 18%;
+    }
+    .General-title {
+        width: 100%;
+        margin-left: 5%;
+        font-size: 150%;
+    }
+}

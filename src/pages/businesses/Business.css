@@ -45,3 +45,24 @@ html{
     font-weight: 1000;
 }
 
+
+@media screen and (max-width: 768px) {
+    /*.Business-nav {*/
+    /*    width: 10%;*/
+    /*}*/
+    .Business-text {
+        margin-left: 50%;
+        width: 200%;
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .Business-nav {
+        width: 12%;
+    }
+    .Business-text {
+        margin-left: 17%;
+        width: 80%;
+    }
+}
