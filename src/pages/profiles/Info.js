@@ -39,14 +39,14 @@ function Info() {
 
       <hr className={"General-hr"}/>
       {isChinese?
-        <div className={"General-text"}>
+        <div className={"General-text Profile-text"}>
           上海宝宣自动化控制系统有限公司成立于2003年，是一个高科技电力自动化、机械、仪表自动化系统公司和制造行业服务商，
           现有员工40多人,全部皆大学以上学历，其中技术工程师10人，含高级工程师2人。公司业务范围涵盖纺织行业、印刷行业、
           金属行业、水泥行业、市政行业、化工行业、电力行业、铁路行业，涉及用于市政（自来水、污水）
           建材、化工行业（生物化工）、发电行业、煤矿等工业行业的产品。
         </div>
         :
-        <div className={"General-text"}>
+        <div className={"General-text Profile-text"}>
           Shanghai Baoxuan Automation Control System Co.,Ltd. & HongKong Baoship International Engineering Co.,Ltd
           was founded in 2003. We are a high-tech electrical automation, mechanical, instrumentation automation system
           company and manufacturing industry service provider. We have 40 staffs, including 10 senior engineers in
@@ -58,7 +58,7 @@ function Info() {
       }
 
       {isChinese?
-        <div className={"General-text"}>
+        <div className={"General-text Profile-text"}>
           本公司的主要产品及服务有：
           <ul>
             <li>
@@ -85,7 +85,7 @@ function Info() {
           </ul>
         </div>
         :
-        <div className={"General-text"}>
+        <div className={"General-text Profile-text"}>
           Our products and service includs：
           <ul>
             <li>

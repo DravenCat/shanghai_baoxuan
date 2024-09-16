@@ -63,7 +63,7 @@
 
 .General-content {
     margin: 1% 0 3% 0;
-    min-height: 66vh;
+    min-height: 95vh;
 }
 
 .General-nav-link {
@@ -87,12 +87,16 @@
     }
     .General-hr {
         width: 180%;
-        margin-left: 70%;
+        margin-left: 60%;
     }
     .General-title {
-        width: 180%;
+        width: 150%;
         margin-left: 70%;
         font-size: 150%;
+    }
+    .General-image-group {
+        margin-left: 50%;
+        width: 150%;
     }
 }
 
@@ -104,12 +108,16 @@
         padding-top: 3%;
     }
     .General-hr {
-        width: 80%;
-        margin-left: 18%;
+        width: 70%;
+        margin-left: 25%;
     }
     .General-title {
-        width: 100%;
+        width: 105%;
         margin-left: 5%;
-        font-size: 150%;
+        font-size: 120%;
+    }
+    .General-image-group {
+        margin-left: 17%;
+        width: 80%;
     }
 }
