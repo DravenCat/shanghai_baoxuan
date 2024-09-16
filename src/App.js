@@ -1,8 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.css'
 import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
-import { useSize } from "ahooks";
-import { useMemo, useRef } from "react";
+import {useSize} from "ahooks";
+import {useMemo, useRef} from "react";
 
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -27,29 +27,29 @@ function App() {
   }, [size]);
 
   return (
-    <div ref={ref} style={{ width: "100%", height: "100%", zoom }}>
+    <div ref={ref} style={{width: "100%", height: "100%", zoom}}>
       <div className="App">
-      <Router>
-        <header>
-          <Navigation />
-        </header>
-        <div className={'App-screen'}>
-        <div  >
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/profile/*' element={<Profile />} />
-          <Route path="/business/*" element={<Business />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path="*" element={<Navigate to="/" replace={true}/>} />
-        </Routes>
-        </div>
-        </div>
-      </Router>
-      <footer className="App-footer">
-        <Footer />
-      </footer>
+        <Router>
+          <header>
+            <Navigation/>
+          </header>
+          <div className={'App-screen'}>
+            <div>
+              <Routes>
+                <Route path='/' element={<Home/>}/>
+                <Route path='/profile/*' element={<Profile/>}/>
+                <Route path="/business/*" element={<Business/>}/>
+                <Route path='/contact' element={<Contact/>}/>
+                <Route path="*" element={<Navigate to="/" replace={true}/>}/>
+              </Routes>
+            </div>
+          </div>
+        </Router>
+        <footer className="App-footer">
+          <Footer/>
+        </footer>
+      </div>
     </div>
-  </div>
 
 
   );
