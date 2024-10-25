@@ -1,0 +1,13 @@
+.ICP-code {
+    font-size: 90%;
+    color: white;
+    text-decoration: none;
+}
+
+.ICP-code:hover {
+    color: rgba(255, 255, 255, 0.77);
+}
+
+.copyright {
+    font-size: 100%;
+}
