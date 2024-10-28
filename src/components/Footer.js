@@ -1,4 +1,5 @@
 import "./Footer.css"
+import policeIcon from "../img/footer/policeIcon.png"
 
 
 function Footer() {
@@ -27,8 +28,14 @@ function Footer() {
         </div>
       }
       <div className='text-center pb-2'>
-         <a href={"https://beian.miit.gov.cn/#/Integrated/index"} className="ICP-code">沪ICP备2024099341号 </a>
+        <img src={policeIcon} alt={"备案图标"} className={"footerImg"}/>
+        <a className="ICP-code"
+           href="https://beian.mps.gov.cn/#/query/webSearch?code=31011702890028" rel="noreferrer" target="_blank">
+          沪公网安备31011702890028</a>
+        <span>&nbsp; &nbsp; &nbsp;</span>
+        <a href={"https://beian.miit.gov.cn/#/Integrated/index"} className="ICP-code">沪ICP备2024099341号 </a>
       </div>
+
     </div>
   );
 }
